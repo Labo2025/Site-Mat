@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -61,21 +60,22 @@
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
       margin-bottom: 1.5rem;
     }
-    .member {
-      margin-bottom: 1.5rem;
-    }
-    .member h3 {
-      margin-bottom: 0.2rem;
-    }
-    .member p {
-      margin-bottom: 0.2rem;
-    }
     ul {
       list-style: disc;
       padding-left: 1.5rem;
     }
     ul li {
       margin-bottom: 0.5rem;
+    }
+    .upload-section input {
+      margin-top: 0.5rem;
+    }
+    .upload-section {
+      background-color: white;
+      border: 2px dashed #005599;
+      border-radius: 1rem;
+      padding: 2rem;
+      text-align: center;
     }
   </style>
 </head>
@@ -97,87 +97,28 @@
     <section id="equipe">
       <h2>Équipe</h2>
       <div class="card">
-        <!-- Membres de l'équipe ici -->
-        ...
-      </div>
-    </section>
-
-    <section id="projets">
-      <h2>Projets</h2>
-      <div class="card">
-        <h3>1. Nanostructures de ZnO pour cellules solaires à colorant</h3>
-        <p><strong>Objectif :</strong> Optimiser les propriétés optiques et morphologiques des couches minces de ZnO.</p>
-        <p><strong>Responsable :</strong> M. GBOGLO Déssoudji Alphonse</p>
-        <h3>2. Spray pyrolyse de ZnO pour cellules organiques</h3>
-        <p><strong>Objectif :</strong> Élaborer des couches minces de ZnO nanostructurées pour l’optimisation des performances photovoltaïques.</p>
-        <p><strong>Responsable :</strong> M. AKO Ognanmi</p>
-        <h3>3. Modélisation énergétique des bâtiments</h3>
-        <p><strong>Objectif :</strong> Développer un modèle d’optimisation de la consommation énergétique intégrant les ENR.</p>
-        <p><strong>Responsable :</strong> M. ALI-TAGBA Abdoul-Razak</p>
-        <h3>4. Stabilité thermochimique des pérovskites</h3>
-        <p><strong>Objectif :</strong> Étudier la tenue thermique des pérovskites pour des applications photovoltaïques à haute température.</p>
-        <p><strong>Responsable :</strong> M. KOUIDE Monneka Fiacre</p>
-        <h3>5. Paramètres de dépôt des couches ZnO</h3>
-        <p><strong>Objectif :</strong> Étudier l’impact de la concentration, de la vitesse de rotation, et de la température sur les propriétés des couches de ZnO.</p>
-        <p><strong>Responsables :</strong> M. KOLANI Moïman, M. DJAGBAI Danoka</p>
-        <h3>6. Équipements intelligents pour bâtiments</h3>
-        <p><strong>Objectif :</strong> Contrôle et optimisation des équipements électriques pour l’efficacité énergétique et le confort.</p>
-        <p><strong>Responsable :</strong> M. LOKONON Jérémie</p>
+        <ul>
+          <li><strong>Dr. BANETO Mazabalo</strong>, Responsable d’équipe, Maître de Conférences, Enseignant Chercheur à l’Université de Lomé, Spécialité : Science des Matériaux</li>
+          <li><strong>M. GBOGLO Déssoudji Alphonse</strong>, Doctorant, Sujet de recherche : Optimisation des propriétés morphologiques et optoélectriques des couches minces de ZnO utilisables comme photo-anodes dans les cellules solaires à colorant.</li>
+          <li><strong>M. AKO Ognanmi</strong>, Doctorant, Sujet de recherche : Élaboration et caractérisation des nanostructures de couches minces d'oxyde de zinc (ZnO) par spray pyrolyse pour des cellules solaires organiques.</li>
+          <li><strong>M. ALI-TAGBA Abdoul-Razak</strong>, Doctorant, Sujet de recherche : Modélisation et optimisation de la consommation énergétique dans le bâtiment par intégration d'énergies renouvelables.</li>
+          <li><strong>M. KOUIDE Monneka Fiacre</strong>, Doctorant, Sujet de recherche : Étude de la stabilité thermochimique des pérovskites à Haute Température pour des Application en Energie Solaire.</li>
+          <li><strong>M. KOLANI Moïman</strong>, Master, Sujet de recherche : Étude de l’effet de la concentration de la solution de dépôt sur les propriétés physiques des couches minces d’oxyde de zinc (ZnO) obtenues par la méthode de bain chimique pour des applications photovoltaïques.</li>
+          <li><strong>M. LOKONON Jérémie</strong>, Master, Sujet de recherche : Optimisation et contrôle des équipements électriques en temps réel pour l’efficacité et le confort dans le bâtiment.</li>
+          <li><strong>M. DJAGBAI Danoka</strong>, Masterant, Sujet de recherche : Étude de l’effet de la vitesse de rotation du substrat sur les propriétés structurale, morphologique et optique des couches minces d’oxyde de zinc élaborées par la méthode de spin coating pour des applications photovoltaïques.</li>
+          <li><strong>Mlle AKLAMANU Senam Jeanne</strong>, Masterant, Sujet de recherche pas encore défini.</li>
+          <li><strong>M. BADJEMNA Makadatièna</strong>, Masterant, Sujet de recherche pas encore défini.</li>
+          <li><strong>M. AKPO Bertin</strong>, Masterant, Sujet de recherche pas encore défini.</li>
+        </ul>
       </div>
     </section>
 
     <section id="publications">
       <h2>Publications</h2>
-      <div class="card">
-        <ul>
-          <li>Gboglo D.A. et al., "Optimisation des couches minces de ZnO pour cellules DSSC", *Journal of Renewable Energy*, 2023.</li>
-          <li>Ako O. et al., "Spray pyrolyse de ZnO pour cellules photovoltaïques organiques", *Materials Science Letters*, 2024.</li>
-          <li>Ali-Tagba A.R., "Modélisation énergétique des bâtiments intégrant les ENR", Thèse de doctorat, Université de Lomé, 2024.</li>
-          <li>Kouide M.F., "Stabilité thermique des pérovskites hybrides", *Solar Energy Materials & Solar Cells*, 2023.</li>
-          <li>Kolani M., "Influence de la concentration de dépôt sur le ZnO obtenu par CBD", Mémoire de Master, Université de Lomé, 2024.</li>
-          <li>Djagbai D., "Spin Coating et propriétés optiques du ZnO", Mémoire de Master, Université de Lomé, 2024.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="ressources">
-      <h2>Ressources</h2>
-      <div class="card">
-        <p>Incluez des documents utiles, liens vers des outils ou protocoles internes, etc.</p>
-      </div>
-    </section>
-
-    <section id="mobilites">
-      <h2>Mobilités de recherche / Collaborations</h2>
-      <div class="card">
-        <p>Notre équipe participe activement à des projets de collaboration internationale et à des mobilités de recherche. Ces partenariats permettent d’enrichir les compétences et d’élargir les perspectives de nos travaux.</p>
-        <ul>
-          <li><strong>Université XYZ</strong> - Projet sur les matériaux photovoltaïques à haute efficacité (2024)</li>
-          <li><strong>Institut ABC</strong> - Collaboration sur les cellules solaires à pérovskite (2023-2024)</li>
-          <li><strong>Université de ZZZ</strong> - Programme de mobilité pour doctorants en énergétique (2025)</li>
-          <li><strong>Partenariat avec l'industrie TUV</strong> - Optimisation des procédés de fabrication de couches minces (2023)</li>
-        </ul>
-        <h3>Mobilités individuelles</h3>
-        <ul>
-          <li><strong>M. GBOGLO Déssoudji Alphonse</strong><br>
-          - Bourse Doctorale CV RAMAN (09/2023 – 02/2024) : Karunya Institute of Technology and Sciences, Coimbatore, INDE.<br>
-          - Bourse Doctorale SCAC (04/2024 – 09/2024 et 02/2025 – 07/2025) : IEMN, Lille, France.</li>
-          <li><strong>M. AKO Ognanmi</strong><br>
-          - Bourse Doctorale CV RAMAN (09/2023 – 02/2024) : Karunya Institute of Technology and Sciences, Coimbatore, INDE.</li>
-          <li><strong>M. ALI-TAGBA Abdoul-Razak</strong><br>
-          - Bourse Doctorale AUF (05/2023 – 07/2023) : Université Technique « Gheorghe Asachi » de Iaşi, ROUMANIE.</li>
-          <li><strong>M. KOUIDE Monneka Fiacre</strong><br>
-          - Bourse Doctorale ERASMUS+ (08/2024 – 02/2025) : Universitat Politècnica de València (UPV), Espagne.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <div class="card">
-        <p><strong>Responsable :</strong> Dr. BANETO Mazabalo</p>
-        <p><strong>Email :</strong> mazbaneto@gmail.com</p>
-        <p><strong>Université de Lomé :</strong> Faculté des Sciences, Département de Physique, BP 1515 Lomé, Togo</p>
+      <div class="card upload-section">
+        <p>Importer vos publications (PDF, Word, etc.) :</p>
+        <input type="file" accept=".pdf,.doc,.docx">
+        <p style="margin-top:1rem;">Les visiteurs pourront télécharger les documents que vous ajoutez ici.</p>
       </div>
     </section>
   </main>
